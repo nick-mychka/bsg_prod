@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 5.3758818 5.3758823"
+   height="20.318295"
+   width="20.318295">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-19.014162,-127.90373)"
+     id="layer1">
+    <g
+       transform="matrix(0.01049977,0,0,0.01049977,19.014162,127.90373)"
+       id="g4624">
+      <g
+         id="g4549">
+        <g
+           id="g4547">
+          <path
+             style="fill:#ffffff"
+             d="M 352,0 H 160 C 71.648,0 0,71.648 0,160 v 192 c 0,88.352 71.648,160 160,160 h 192 c 88.352,0 160,-71.648 160,-160 V 160 C 512,71.648 440.352,0 352,0 Z m 112,352 c 0,61.76 -50.24,112 -112,112 H 160 C 98.24,464 48,413.76 48,352 V 160 C 48,98.24 98.24,48 160,48 h 192 c 61.76,0 112,50.24 112,112 z"
+             id="path4545" />
+        </g>
+      </g>
+      <g
+         id="g4555">
+        <g
+           id="g4553">
+          <path
+             style="fill:#ffffff"
+             d="m 256,128 c -70.688,0 -128,57.312 -128,128 0,70.688 57.312,128 128,128 70.688,0 128,-57.312 128,-128 0,-70.688 -57.312,-128 -128,-128 z m 0,208 c -44.096,0 -80,-35.904 -80,-80 0,-44.128 35.904,-80 80,-80 44.096,0 80,35.872 80,80 0,44.096 -35.904,80 -80,80 z"
+             id="path4551" />
+        </g>
+      </g>
+      <g
+         id="g4561">
+        <g
+           id="g4559">
+          <circle
+             style="fill:#ffffff"
+             cx="393.60001"
+             cy="118.4"
+             r="17.056"
+             id="circle4557" />
+        </g>
+      </g>
+      <g
+         id="g4563" />
+      <g
+         id="g4565" />
+      <g
+         id="g4567" />
+      <g
+         id="g4569" />
+      <g
+         id="g4571" />
+      <g
+         id="g4573" />
+      <g
+         id="g4575" />
+      <g
+         id="g4577" />
+      <g
+         id="g4579" />
+      <g
+         id="g4581" />
+      <g
+         id="g4583" />
+      <g
+         id="g4585" />
+      <g
+         id="g4587" />
+      <g
+         id="g4589" />
+      <g
+         id="g4591" />
+    </g>
+  </g>
+</svg>

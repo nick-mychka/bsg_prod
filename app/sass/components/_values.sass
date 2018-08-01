@@ -1,0 +1,56 @@
+.s-our-values
+	padding: 50px 0
+
+	.our-values
+		padding: 40px 0 10px
+
+	.join-btn
+		text-align: center
+
+	.our-values-photo
+		display: flex
+		img
+			width: 100%
+			height: auto
+			
+
+	.our-values-photo_big
+		span
+			position: relative
+			display: inline-block
+
+			&::after
+				content: "Библия"
+				position: absolute
+				left: 50%
+				top: 50%
+				transform: translate(-50%, -50%)
+				color: #fff
+				font-weight: 600
+	
+	.our-values-photo_small
+		display: flex
+		flex-direction: column
+		padding-left: 25px
+
+		span
+			position: relative
+			display: inline-block
+			padding-top: 20px
+
+			&:first-child
+				padding-top: 0
+
+			&::after
+				content: "Взаимопомощь"
+				position: absolute
+				left: 50%
+				top: 50%
+				transform: translate(-50%, -50%)
+				color: #fff
+				font-weight: 600
+
+			&:nth-child(2)::after
+				content: "Веселье"
+
+		

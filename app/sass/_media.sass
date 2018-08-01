@@ -1,0 +1,121 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+
+	.s-about-us 
+		.about-us-photo 
+			.about-us-statistic
+				width: 90%
+
+// ≥992px
++media-breakpoint-down(md)
+
+	
+	.s-about-us 
+		.about-us-description
+			margin-bottom: 30px
+		.about-us-photo 
+			.about-us-statistic
+				width: 70%
+
+	.s-our-values
+		.our-values-photo
+			margin-bottom: 30px
+
+	.s-our-help
+		.our-help-item
+			margin: 30px 0 0 
+
+	footer
+		.footer-form
+			position: absolute
+			top: -18px
+			left: 50%
+			transform: translate(-50%, 0)
+
+
+// ≥768px
++media-breakpoint-down(sm)
+
+	.h2
+		font-size: 40px
+
+	.s-about-us 
+		.about-us-photo 
+			.about-us-statistic
+				width: 80%
+
+	.s-our-help
+		.our-help-item
+			justify-content: center
+
+	footer
+		.footer-form
+			position: static
+			top: 0px
+			left: 0%
+			transform: translate(0, 0)
+
+		.footer-social
+			padding-top: 18px
+
+		.footer-social, .footer-phones
+			text-align: center
+			
+
+
+// ≥576px
++media-breakpoint-down(xs)
+	
+	.h2
+		font-size: 24px
+
+	header
+		.top-line
+			margin-bottom: 30px
+		.text-bellaboo
+			font-size: 60px
+
+		.text-grandhotel
+			font-size: 30px
+
+	.s-about-us 
+		.about-us-photo 
+			.about-us-statistic
+				width: 92%
+				font-size: 12px
+				padding: 20px 5%
+				span
+					font-size: 20px
+
+	.s-our-help
+		.our-help-item
+			justify-content: flex-start
+
+	.s-our-values
+
+		.our-values-photo_small
+			padding-left: 10px
+
+			span
+				padding-top: 10px
+
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)

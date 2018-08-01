@@ -1,0 +1,70 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+@import "components/button"
+
+
+
+::placeholder
+	text-align: center
+	color: #ababab
+
+::selection
+	background-color: $accent
+	color: #fff
+
+body
+	font-size: 14px
+	min-width: 320px
+	min-height: 625px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	color: $text
+	background-color: #fff
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+	&.img-width
+		width: 100%
+
+.text-center
+	text-align: center
+
+b, strong
+	font-weight: bold
+
+.h2
+		font-size: 50px
+		position: relative
+		margin: 0
+		line-height: 1
+		&::after
+			content: ''
+			position: absolute
+			bottom: 12px
+			right: 0
+			width: 48px
+			height: 2px
+			background-color: $text
+
+@import "components/header"
+@import "components/about-us"
+@import "components/values"
+@import "components/our-work"
+@import "components/our-help"
+@import "components/live"
+@import "components/reviews"
+@import "components/footer"
+
+@import "media" // Always at the end
