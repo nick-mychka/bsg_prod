@@ -29,7 +29,7 @@
 <body>
 
 	
-	<header>
+	<header  id="header">
 		<div class="container-fluid">
 			<div class="top-line">
 				<div class="row align-items-center">
@@ -41,20 +41,20 @@
 					<div class="col-lg-8 d-none d-lg-block">
 						<nav>
 							<ul>
-								<li><a href="#">О нас</a></li>
-								<li><a href="#">Ценности</a></li>
-								<li><a href="#">Что делаем</a></li>
-								<li><a href="#">Чем помогаем</a></li>
-								<li><a href="#">В живую</a></li>
-								<li><a href="#">Отзывы</a></li>
-								<li><a href="#">Контакты</a></li>
+								<li><a href="#about-us" rel="m_PageScroll2id">О нас</a></li>
+								<li><a href="#our-values" rel="m_PageScroll2id">Ценности</a></li>
+								<li><a href="#our-work" rel="m_PageScroll2id">Что делаем</a></li>
+								<li><a href="#our-help" rel="m_PageScroll2id">Чем помогаем</a></li>
+								<!-- <li><a href="#" rel="m_PageScroll2id">В живую</a></li> -->
+								<li><a href="#reviews" rel="m_PageScroll2id">Отзывы</a></li>
+								<li><a href="#footer" rel="m_PageScroll2id">Контакты</a></li>
 							</ul>
 						</nav>
 					</div>
 					<div class="col-8 col-sm-6 col-lg-2">
 						<div class="header-social">
-							<a href="#" title="BSG Telegram"><img src="img/social/telegram-icon.svg" alt="BSG Telegram"></a>
-							<a href="#" title="BSG Instagram"><img src="img/social/instagram-icon.svg" alt="BSG Instagram"></a>
+							<a href="http://t.me/bible_study_group" target="_blank" title="BSG Telegram"><img src="img/social/telegram-icon.svg" alt="BSG Telegram"></a>
+							<a href="https://www.instagram.com/biblestudygroup.info" title="BSG Instagram"><img src="img/social/instagram-icon.svg" alt="BSG Instagram"></a>
 							<div class="burger-menu d-lg-none">
 								<div class="close-overlay"></div>
 								<div class="hamburger hamburger--collapse" >
@@ -68,13 +68,13 @@
 										<p>Меню</p>
 									</div>
 									<ul>
-										<li><a href="#">О нас</a></li>
-										<li><a href="#">Ценности</a></li>
-										<li><a href="#">Что делаем</a></li>
-										<li><a href="#">Чем помогаем</a></li>
-										<li><a href="#">В живую</a></li>
-										<li><a href="#">Отзывы</a></li>
-										<li><a href="#">Контакты</a></li>
+										<li><a href="#about-us" rel="m_PageScroll2id">О нас</a></li>
+										<li><a href="#our-values" rel="m_PageScroll2id">Ценности</a></li>
+										<li><a href="#our-work" rel="m_PageScroll2id">Что делаем</a></li>
+										<li><a href="#our-help" rel="m_PageScroll2id">Чем помогаем</a></li>
+										<!-- <li><a href="#" rel="m_PageScroll2id">В живую</a></li> -->
+										<li><a href="#reviews" rel="m_PageScroll2id">Отзывы</a></li>
+										<li><a href="#footer" rel="m_PageScroll2id">Контакты</a></li>
 									</ul>
 								</nav>
 							</div>
@@ -99,7 +99,7 @@
 						</div>
 						<div class="p-text"><p>Мы любим читать Библию и проводить время вместе</p></div>
 						<div class="join-btn">
-							<button class="btn">Присоединиться</button>
+							<a href="#footer" rel="m_PageScroll2id" class="btn">Присоединиться</a>
 						</div>
 					</div>
 				</div>
@@ -115,7 +115,7 @@
 		</div>
 	</header>
 
-	<section class="s-about-us">
+	<section id="about-us" class="s-about-us">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 order-lg-first">
@@ -154,7 +154,7 @@
 		</div>
 	</section>
 
-	<section class="s-our-values">
+	<section id="our-values" class="s-our-values">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -167,7 +167,7 @@
 						<div class="our-values-description">
 							<p>Все мы – люди разные: по возрасту, характеру, темпераменту, национальности и т.д. Но! Нас объединяет Библия. Мы читаем вместе и самостоятельно, дома и на учёбе, когда гуляем или играем в квесты. Для нас эта книга – огромное открытие и ценность.</p> 
 							<p>Мы также любим помогать друг другу и людям вокруг. Помимо этого, мы ценим открытую для всех, веселую компанию, дружбу, совместные поездки, общение, одним словом – крутое время вместе. Ждем и тебя!</p>
-							<div class="join-btn"><button class="btn">Присоединиться</button></div>
+							<div class="join-btn"><a href="#footer" rel="m_PageScroll2id" class="btn">Присоединиться</a ></div>
 						</div>
 					</div>
 					<div class="order-first col-lg-7 col-xl-7 offset-xl-1">
@@ -187,7 +187,7 @@
 	</section>
 	
 
-	<section class="s-our-work">
+	<section id="our-work" class="s-our-work">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -222,7 +222,7 @@
 		</div>
 	</section>
 
-	<section class="s-our-help">
+	<section id="our-help" class="s-our-help">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -300,7 +300,7 @@
 		</div>
 	</section> -->
 
-	<section class="s-reviews">
+	<section id="reviews" class="s-reviews">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -352,24 +352,29 @@
 		</div>
 	</section>
 
-	<footer class="footer">
+	<footer id="footer" class="footer">
 		<div class="container">
 			<div class="row">
 				<div class="order-md-first col-md-4 col-lg-3">
 					<div class="footer-social">
 						<h4 class="h4">Мы в социальных сетях:</h4>
-						<a href="#" title="BSG Telegram"><img src="img/social/telegram-icon.svg" alt="BSG Telegram"></a>
-						<a href="#" title="BSG Instagram"><img src="img/social/instagram-icon.svg" alt="BSG Instagram"></a>
+						<a href="http://t.me/bible_study_group" target="_blank" title="BSG Telegram"><img src="img/social/telegram-icon.svg" alt="BSG Telegram"></a>
+						<a href="https://www.instagram.com/biblestudygroup.info" title="BSG Instagram"><img src="img/social/instagram-icon.svg" alt="BSG Instagram"></a>
 					</div>
 				</div>
 				<div class="order-first col-md-8 col-lg-6">
 					<div class="footer-form_wrap">
-						<form class="footer-form">
+						<form class="footer-form callback">
+							<div class="success"><span>Спасибо! Вашы данные успешно приняты</span></div>
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="Bible Study Group">
+							<input type="hidden" name="admin_email" value="nickmychka@gmail.com">
+							<input type="hidden" name="form_subject" value="Новая заявка из сайта BSG">
 							<h3 class="h3">Присоединяйся!</h3>
 							<p>Оставь свой телефон, мы перезвоним</p>
-							<div class="form-input"><input type="text" name="Имя" placeholder="Имя"></div>
-							<div class="form-input"><input type="text" name="Телефон" placeholder="Телефон"></div>
-							<button class="btn btn-form">Отправить</button>
+							<div class="form-input"><input type="text" name="Имя" placeholder="Имя" required></div>
+							<div class="form-input"><input type="text" name="Телефон" placeholder="Телефон" required></div>
+							<button class="btn btn-form btn-submit">Отправить</button>
 						</form>
 					</div>
 				</div>

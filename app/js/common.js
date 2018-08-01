@@ -23,7 +23,26 @@ $(function() {
 
 	});
 
+		/* ........... Initialization and settings PageScroll2id plugin ........... */
+	$("a[rel='m_PageScroll2id']").mPageScroll2id({});
 
+	$("form.callback").submit(function() { //Change
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "mail.php", //Change
+			data: th.serialize()
+		}).done(function() {
+			$(th).find(".success").addClass('success-active').css("display", "flex").hide().fadeIn();
+			setTimeout(function() {
+				$(th).find(".success").removeClass('success-active').fadeOut();
+				// Done Functions
+				th.trigger("reset");
+			}, 3000);
+		});
+		return false;
+	});
+	
 	// $(window).on("scroll resize", function() {
 		
 	// 	if ($(".hamburger").hasClass("is-active")) {

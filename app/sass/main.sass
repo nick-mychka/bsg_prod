@@ -67,4 +67,23 @@ b, strong
 @import "components/reviews"
 @import "components/footer"
 
+.success
+	display: none
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	text-transform: uppercase
+	font-weight: 600
+	z-index: 10
+	span
+		margin: auto
+	& ~ *
+		transition: all .5s ease
+	&.success-active
+		& ~ *
+			opacity: 0.5
+			filter: blur(10px)
+
 @import "media" // Always at the end
