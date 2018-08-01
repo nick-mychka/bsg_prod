@@ -3,7 +3,8 @@
 @import "libs"
 @import "components/button"
 
-
+*
+	user-select: none
 
 ::placeholder
 	text-align: center
@@ -14,15 +15,16 @@
 	color: #fff
 
 body
-	font-size: 14px
+	position: relative
 	min-width: 320px
 	min-height: 625px
-	position: relative
+	color: $text
+	font-size: 16px
 	line-height: 1.65
 	font-family: $default-font
-	overflow-x: hidden
-	color: $text
+	font-weight: 300
 	background-color: #fff
+	overflow-x: hidden
 	input, textarea
 		border: #666 1px solid
 		outline: none
@@ -75,7 +77,8 @@ b, strong
 	right: 0
 	bottom: 0
 	text-transform: uppercase
-	font-weight: 600
+	font-size: 14px
+	font-weight: 500
 	z-index: 10
 	span
 		margin: auto

@@ -1,5 +1,8 @@
 $(function() {
 
+	/* ........... Prevent drag on the links and images ........... */
+	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
+
 	$('.reviews-carousel').flickity({
 		adaptiveHeight: true,
 		contain: true,
@@ -23,6 +26,17 @@ $(function() {
 
 	});
 
+	$(".burger-list ul li a").on("click", function() {
+
+		
+		$(".hamburger").removeClass("is-active");
+		$(".burger-list").removeClass("menu-active");
+		$(".close-overlay").fadeOut(500);
+
+	});
+
+	
+
 		/* ........... Initialization and settings PageScroll2id plugin ........... */
 	$("a[rel='m_PageScroll2id']").mPageScroll2id({});
 
@@ -30,7 +44,7 @@ $(function() {
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "mail.php", //Change
+			url: "telegram.php", //Change
 			data: th.serialize()
 		}).done(function() {
 			$(th).find(".success").addClass('success-active').css("display", "flex").hide().fadeIn();
